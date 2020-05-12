@@ -5,7 +5,8 @@ const { writeFile, appendFile } = require ('fs')
 const { promisify } = require('util')
 
 const writeFileSync = promisify(writefile)
-const appendFileSync = promisify(appendFile)\\const top = 
+const appendFileSync = promisify(appendFile)
+const top = 
 
 writeFileSync('movies.html', top)
     .then(() => )
